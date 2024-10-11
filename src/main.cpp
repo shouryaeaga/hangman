@@ -3,6 +3,6 @@
 #include "Game.h"
 
 int main() {
-    Game game("words/dictionary.txt");
+    Game game("../words/dictionary.txt");
     game.Loop();
 }
